@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans',sans-serif;
+}
+
+/* Estilos del header */
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid black;
+    background-color: #5baba8;
+}
+
+/* navbar-LEFT */
+.container-nav .navbar-left {
+    display: flex;
+
+}
+.container-nav .navbar-left .logo-imagen{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.container-nav .navbar-left ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.container-nav .navbar-left ul a {
+    text-decoration: none;
+    color: black;
+    margin-right: 8px;
+    padding: 9px;
+    font-size: 1.8rem;
+    border: 1px solid #5baba8;
+}
+.container-nav .navbar-left ul a:hover{
+    color: rgba(70, 221, 15, 0.75);
+    border: 1px solid rgba(250, 252, 250, 0.535);
+    border-radius: 8px;
+    
+}
+
+/* navbar-RIGHT */
+.container-nav .navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-nav .navbar-right p {
+    font-size: 1.2rem;
+    padding-right: 4px;
+    padding-bottom: 12px;
+    align-self: flex-end;
+    
+}
+.container-nav .navbar-right ul {
+    list-style: none;
+    display: flex;
+    align-self: flex-end;
+    
+}
+.container-nav .navbar-right ul li{
+    margin: 0 4px;
+    padding-bottom: 4px;
+}
+
